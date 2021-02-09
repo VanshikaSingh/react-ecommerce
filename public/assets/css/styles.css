@@ -1,0 +1,23 @@
+.btn-primary{
+    float:right;
+    margin-top: 1em;
+ }
+ .search-container{
+    padding-top: 4em;
+    text-align: right;   
+}
+.col-xs-2{
+    width: 10%;
+    float: left;
+    margin-right: 0.2em;
+    margin-top: 0.35em;
+}
+.checkbox{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+td:nth-child(4){
+    width:20%;
+}
+
+

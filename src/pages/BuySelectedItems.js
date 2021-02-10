@@ -1,12 +1,11 @@
-import React, { Component } from "react"
+import React, {Component} from 'react';
 
-
-class Main2 extends React.Component{
+class BuySelectedItems extends React.Component {
     render(){
-        return(
-            <div>
-                 <div class="container-fluid">
-    <button class="btn btn-primary" type="submit">Add Selected items to Cart</button>
+    return (
+        <div>
+ <div class="container-fluid">
+    <button class="btn btn-primary" type="submit">Buy Selected Items</button>
       <div class="search-container">
        <p>Search:<input type="text" name="search"/></p>
       </div>
@@ -31,7 +30,7 @@ class Main2 extends React.Component{
             <div class="col-xs-2">
               <input class="form-control" type="text" placeholder="1"/>
             </div>
-            <button type="button" class="btn btn-outline-primary">Add to Cart</button>
+            
             <input class="checkbox" type="checkbox" value=""/>
           </td>
         </tr>
@@ -46,7 +45,7 @@ class Main2 extends React.Component{
             <div class="col-xs-2">
               <input class="form-control" type="text" placeholder="1"/>
             </div>
-            <button type="button" class="btn btn-outline-primary">Add to Cart</button>
+            
             <input class="checkbox" type="checkbox" value=""/>
           </td>
 
@@ -63,7 +62,7 @@ class Main2 extends React.Component{
             <div class="col-xs-2">
               <input class="form-control" type="text" placeholder="1"/>
             </div>
-            <button type="button" class="btn btn-outline-primary">Add to Cart</button>
+            
             <input class="checkbox" type="checkbox" value=""/>
           </td>
 
@@ -79,7 +78,7 @@ class Main2 extends React.Component{
             <div class="col-xs-2">
               <input class="form-control" type="text" placeholder="1"/>
             </div>
-            <button type="button" class="btn btn-outline-primary">Add to Cart</button>
+            
             <input class="checkbox" type="checkbox" value=""/>
           </td>
 
@@ -95,7 +94,7 @@ class Main2 extends React.Component{
             <div class="col-xs-2">
               <input class="form-control" type="text" placeholder="1"/>
             </div>
-            <button type="button" class="btn btn-outline-primary">Add to Cart</button>
+            
             <input class="checkbox" type="checkbox" value=""/>
           </td>
 
@@ -104,8 +103,9 @@ class Main2 extends React.Component{
       </tbody>
     </table>
   </div>
-            </div>
-        )
-    }
-}
-export default Main2
+            
+        </div>
+    )
+}}
+
+export default BuySelectedItems;
